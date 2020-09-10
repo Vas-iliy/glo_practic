@@ -5,10 +5,12 @@ button:focus {
     outline: none;
 }
 .container {
-    display: flex;
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+}
+.container-header {
+    display: flex;
     align-items: center;
 }
 .header {
@@ -55,4 +57,34 @@ button:focus {
     color: #f05a22;
     background-color: transparent;
     border: 2px solid #f05a22;
+}
+.features {
+    padding-top: 90px;
+    padding-bottom: 99px;
+    background-color: #f2f2f2;
+}
+.section-title {
+    margin-bottom: 97px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+.features-flex {
+    display: flex;
+    justify-content: center;
+}
+.features-block {
+    width: 25%;
+    text-align: center;
+    margin: 1px 30px;
+}
+.features-block__img {
+    min-height: 50px;
+    margin-bottom: 16px;
+}
+.features-block__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
 }
